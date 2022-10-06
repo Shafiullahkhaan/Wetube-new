@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1rem;
+    display:flex ;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 7%;
+    box-sizing: border-box;
+    margin-left: 12px;
+    margin-right: 5px;
+    position: relative;
+    top: 20px;
+   
+}
+
+.menu-items{
+    list-style: none;
+    padding-bottom: 25px;
+    padding-left:5px;
+    padding-right: 5px;;
+    cursor: pointer;
+    box-sizing: border-box;
+  
+}
+
+.box{
+    display: flex;
+}
+
+.thumbnail{
+    width: 280px;
+    height: 158px;
+}
+
+.channel-image{
+    width:36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.small-text{
+    color:gray;
+    font-size: 0.75rem;
+    margin-top:10px;
+    margin-left: 45px;
+}
+
+.video-card{
+    width: 280px;
+    height: 310px;
+    border:1px solid gray;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.video-info{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.video-name{
+    margin-left: 10px;
+}
+
+.viewcount{
+    margin-top: 2px;
+}
+
+.hero{
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.App{
+
+    width: 1080px;
+    height: 100vh;
+}
